@@ -8,7 +8,7 @@ class PgRepack < Formula
   depends_on "postgresql@16"
 
   bottle do
-    root_url "https://github.com/crunchyjoea/homebrew-pg_repack/blob/main/bottle"
+    root_url "https://github.com/crunchyjoea/homebrew-pg_repack/raw/main/bottle/"
     sha256 arm64_sonoma: "ae9172845d109c1af4cebf7cd1aeef618921d21837b8859b8d19170c5ee530cd"
   end
 
