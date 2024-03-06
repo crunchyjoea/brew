@@ -14,13 +14,11 @@ class PgRepack < Formula
 
   def install
     system "make", "all"
-    mkdir "#{HOMEBREW_PREFIX}/Cellar/pg_repack/1.5.0/bin"
-    mkdir "#{HOMEBREW_PREFIX}/Cellar/pg_repack/1.5.0/lib"
-    #cp "bin/pg_repack", "#{HOMEBREW_PREFIX}/Cellar/pg_repack/1.5.0/bin"
+    doc.install "COPYRIGHT"
+    doc.install "doc/pgrepack.rst"
     bin.install "bin/pg_repack"
     lib.install "lib/pg_repack--1.5.0.sql"
-    #cp "lib/pg_repack--1.5.0.sql", ""#{HOMEBREW_PREFIX}/Cellar/pg_repack/1.5.0/lib"
-    #cp "lib/pg_repack.control", ""#{HOMEBREW_PREFIX}/Cellar/pg_repack/1.5.0/lib"
+    lib.install "lib/pg_repack.control"
   end
 
 end
