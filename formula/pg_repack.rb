@@ -9,7 +9,7 @@ class PgRepack < Formula
 
   bottle do
     root_url "https://github.com/crunchyjoea/homebrew-pg_repack/raw/main/bottle/"
-    sha256 arm64_sonoma: "e67faa4637f76c96616a7ea3a3a07a440413040d37fd3e7192588087bb11cca8"
+    sha256 arm64_sonoma: "e5d62f282115e1fc901c1b3de792008a0901e3a3b2e0b4c5139a3c888e1f4e0b"
   end
 
   def install
