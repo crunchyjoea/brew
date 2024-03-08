@@ -1,4 +1,4 @@
-class PgRepack < Formula
+class PgRepack15 < Formula
   desc "Reorganize tables in PostgreSQL databases with minimal locks"
   homepage ""
   url "https://github.com/reorg/pg_repack/archive/refs/tags/ver_1.5.0.tar.gz"
