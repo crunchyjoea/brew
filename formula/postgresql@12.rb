@@ -3,7 +3,6 @@ class PostgresqlAT12 < Formula
   homepage "https://www.postgresql.org/"
   url "https://ftp.postgresql.org/pub/source/v12.18/postgresql-12.18.tar.bz2"
   sha256 "4f9919725d941ce9868e07fe1ed1d3a86748599b483386547583928b74c3918a"
-  sha256 "b8df078551898960bd500dc5d38a177e9905376df81fe7f2b660a1407fa6a5ed"
   license "PostgreSQL"
   revision 1
 

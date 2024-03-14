@@ -12,13 +12,7 @@ class PostgresqlAT13 < Formula
   end
 
   bottle do
-    sha256 arm64_sonoma:   "d49e8b487d6b7e696e74ebf7d0bddbb9b8c343d7861d760a39f0a37cf22a9554"
-    sha256 arm64_ventura:  "c676df20e5bdb6f4d37f8c7f4af0bf330669fc45baca90b55dadb83314430c20"
-    sha256 arm64_monterey: "d6f9955bcbcbf7c522cdf540c51b25198fad93a08d2e7315110fa875350afc67"
-    sha256 sonoma:         "8215acbfa15734c5f1742ec0d9a3fd415e0e082fc59186607b2ca5153af8f2bf"
-    sha256 ventura:        "e66cb34dafefb5e3250156325330ed5420e2fd2ac1d16fa46cd08cb5ed8551b4"
-    sha256 monterey:       "e3c300390188842367196f5b0502697cddb8e2da579adc8fe22331711dcead25"
-    sha256 x86_64_linux:   "9298be8e141b22173e5e1892a7b370ca09238656dabece13dd57575ae0dfd26a"
+    sha256 arm64_sonoma: "58ce07b036b12622ffb62d78d4f5a64e88bdc549d1bccbd38ba360c8d8efae44"
   end
 
   # https://www.postgresql.org/support/versioning/
