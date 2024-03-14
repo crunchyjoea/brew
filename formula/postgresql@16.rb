@@ -12,6 +12,7 @@ class PostgresqlAT16 < Formula
   end
 
   bottle do
+    root_url "https://github.com/crunchyjoea/homebrew-pg_repack/raw/main/bottle/"
     sha256 arm64_sonoma: "723bacf5ca4124d52c8aed9ca21d1f2ce0ab23c8de223eae6f63b38b4a80dbb9"
   end
 
