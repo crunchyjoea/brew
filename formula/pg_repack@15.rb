@@ -9,7 +9,7 @@ class PgRepackAT15 < Formula
 
   bottle do
     root_url "https://github.com/crunchyjoea/homebrew-pg_repack/raw/main/bottle/"
-    sha256 arm64_sonoma: "c0bfeba1a3968c152e8a065ffc39411b19c73e9f815da874aa9ab7c27916f063"
+    sha256 arm64_sonoma: "a95de85159dc80bc38dbad8c5713ba21dc64ac3513ad61469331ee37d400ce44"
   end
 
   def postgresql
