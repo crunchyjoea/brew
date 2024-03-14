@@ -25,7 +25,7 @@ class PgRepackAT15 < Formula
     postgresql_stage_path = File.join("stage", postgresql_prefix)
     bin.install (buildpath/postgresql_stage_path/"bin").children
 
-    stage_path = File.join("stage", "opt/homebrew/opt/postgresql@15/")
+    stage_path = File.join("stage", HOMEBREW_PREFIX)
     lib.install (buildpath/stage_path/"lib").children
     share.install (buildpath/stage_path/"share").children
 
